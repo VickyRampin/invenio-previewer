@@ -100,6 +100,7 @@ setup(
             'pdfjs = invenio_previewer.extensions.pdfjs',
             'zip = invenio_previewer.extensions.zip',
             'ipynb = invenio_previewer.extensions.ipynb',
+            'gis = invenio_previewer.extensions.gis',
             'default = invenio_previewer.extensions.default',
         ],
     },

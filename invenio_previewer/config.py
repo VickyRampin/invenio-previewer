@@ -29,6 +29,7 @@ PREVIEWER_MAX_IMAGE_SIZE_BYTES = 0.5 * 1024 * 1024
 PREVIEWER_ZIP_MAX_FILES = 1000
 """Max number of files showed in the ZIP previewer."""
 
+# Overrides invenio_app_rdm/config.py to add 'gis'
 PREVIEWER_PREFERENCE = [
     'csv_dthreejs',
     'simple_image',
@@ -37,6 +38,7 @@ PREVIEWER_PREFERENCE = [
     'mistune',
     'pdfjs',
     'ipynb',
+    'gis',
     'zip',
 ]
 """Decides which previewers are available and their priority."""
