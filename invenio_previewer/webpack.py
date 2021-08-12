@@ -71,6 +71,8 @@ previewer = WebpackThemeBundle(
                 'bottom_css': './scss/invenio_previewer/bottom.scss',
                 'simple_image_css':
                     './scss/invenio_previewer/simple_image.scss',
+                'gis_css': './css/invenio_previewer/gis/ol.css',
+                'gis_js': './js/invenio_previewer/gis/ol.js',
             },
             dependencies={
                 'd3': '^3.5.17',
