@@ -43,6 +43,8 @@ previewer = WebpackThemeBundle(
                 'pdfjs_js': './js/invenio_previewer/pdfjs.js',
                 'pdfjs_css': './scss/invenio_previewer/pdfjs.scss',
                 'simple_image_css': './scss/invenio_previewer/simple_image.scss',
+                'gis_css': './css/invenio_previewer/gis/ol.css',
+                'gis_js': './js/invenio_previewer/gis/ol.js',
             },
             dependencies={
                 'bootstrap-sass': '~3.4.0',
